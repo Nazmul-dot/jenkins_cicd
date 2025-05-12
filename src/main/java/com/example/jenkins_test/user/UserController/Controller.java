@@ -14,4 +14,9 @@ public class Controller {
     public ResponseEntity<?> getUser() {
         return new ResponseEntity<>("Jenkins", HttpStatus.OK);
     }
+
+    @GetMapping("/test")
+    public ResponseEntity<?> getUser2() {
+        return new ResponseEntity<>("health check", HttpStatus.OK);
+    }
 }
