@@ -17,6 +17,6 @@ public class Controller {
 
     @GetMapping("/test")
     public ResponseEntity<?> getUser2() {
-        return new ResponseEntity<>("health check2", HttpStatus.OK);
+        return new ResponseEntity<>("health check2 testing", HttpStatus.OK);
     }
 }
