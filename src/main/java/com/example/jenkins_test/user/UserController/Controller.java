@@ -12,11 +12,11 @@ public class Controller {
 
     @GetMapping("/jenkins")
     public ResponseEntity<?> getUser() {
-        return new ResponseEntity<>("Jenkins", HttpStatus.OK);
+        return new ResponseEntity<>("Jenkins2", HttpStatus.OK);
     }
 
     @GetMapping("/test")
     public ResponseEntity<?> getUser2() {
-        return new ResponseEntity<>("health check", HttpStatus.OK);
+        return new ResponseEntity<>("health check2", HttpStatus.OK);
     }
 }
